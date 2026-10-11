@@ -1,4 +1,28 @@
-<!-- Insert after the hero in your existing index.php. Uses existing style.css plus these additions. -->
+<Doctype! html>
+	<head>
+		<title>TechDojo | Free Computer Science Revision & Practice Questions</title>
+		<meta name="description" content="Revise computer science for free with TechDojo. Practise quiz questions, written answers, binary maths and printable practice papers. Choose Full or Lite.">
+		<meta name="robots" content="index, follow, max-image-preview:large">
+		<link rel="canonical" href="https://findmycode.org/">
+		<meta property="og:type" content="website">
+		<meta property="og:site_name" content="TechDojo">
+		<meta property="og:title" content="TechDojo | Free Computer Science Revision & Practice Questions">
+		<meta property="og:description" content="Free computer science revision quizzes, written-answer practice, binary maths and printable practice papers. Explore TechDojo Full and Lite.">
+		<meta property="og:url" content="https://findmycode.org/">
+		<meta name="twitter:card" content="summary">
+		<meta name="twitter:title" content="TechDojo | Free Computer Science Revision">
+		<meta name="twitter:description" content="Practise computer science with free quizzes, binary maths and printable practice papers.">
+		<script type="application/ld+json">
+		{
+		  "@context": "https://schema.org",
+		  "@type": "WebSite",
+		  "name": "TechDojo",
+		  "url": "https://findmycode.org/",
+		  "description": "Free computer science revision, quizzes, written-answer practice, binary maths and printable practice papers.",
+		  "inLanguage": "en-GB"
+		}
+		</script>
+	</head>
 <style>
 :root {
   --bg: #f4efe6; --paper: #fffaf2; --ink: #1d1a17; --muted: #6d655b;
@@ -241,7 +265,7 @@ h1 { font-family: var(--serif); font-size: clamp(2.2rem, 6vw, 3.8rem); line-heig
     display: flex;
     flex-direction: column;
   }
-  .platform-card h2 {
+  .platform-card h3 {
     font: 700 1.8rem var(--serif);
     margin: 6px 0 12px;
   }
@@ -288,11 +312,13 @@ h1 { font-family: var(--serif); font-size: clamp(2.2rem, 6vw, 3.8rem); line-heig
 </style>
 
 <section aria-labelledby="platform-title">
-  <h2 id="platform-title">Choose your dojo.</h2>
+  <p class="eyebrow">Free computer science revision and exam practice</p>
+  <h2 id="platform-title">Choose your TechDojo computer science revision platform</h2>
+  <p>Practise computer science with free revision questions, written-answer mark schemes, binary maths and printable practice papers. Choose TechDojo Full for saved progress or TechDojo Lite for revision without an account.</p>
   <div class="grid platform-grid">
     <article class="card platform-card">
       <p class="eyebrow">The complete dojo</p>
-      <h2>TechDojo Full</h2>
+      <h3>TechDojo Full — Computer Science Revision with Progress Tracking</h3>
 	  <h3>Only available during scheduled hours and work days</h3>
       <p>Your learning, saved. Build your profile, earn XP and see how far you have come.</p>
       
@@ -308,14 +334,14 @@ h1 { font-family: var(--serif); font-size: clamp(2.2rem, 6vw, 3.8rem); line-heig
       </ul>
 
       <div class="card-footer">
-        <a class="btn" href="https://full.findmycode.org/">Open TechDojo Full →</a>
+        <a class="btn" href="https://full.findmycode.org/" aria-label="Open TechDojo Full computer science revision platform">Open TechDojo Full →</a>
         <p class="availability">Hosted on our own server · available during scheduled operating hours.</p>
       </div>
     </article>
 
     <article class="card platform-card">
       <p class="eyebrow">The learning never stops</p>
-      <h2>TechDojo Lite</h2>
+      <h3>TechDojo Lite — Free Computer Science Revision Online</h3>
 	  <h3>Available all the time</h3>
       <p>Quick, free revision without an account. Keep practising when the full server is unavailable.</p>
       
@@ -331,13 +357,13 @@ h1 { font-family: var(--serif); font-size: clamp(2.2rem, 6vw, 3.8rem); line-heig
       </ul>
 
       <div class="card-footer">
-        <a class="btn" href="https://lite.findmycode.org/">Open TechDojo Lite →</a>
+        <a class="btn" href="https://lite.findmycode.org/" aria-label="Open TechDojo Lite free computer science revision">Open TechDojo Lite →</a>
         <p class="availability">Hosted as a static site · no account required. Answers and scores are not saved.</p>
       </div>
     </article>
 	<article class="card platform-card">
-		<h2>TechDojo Individuality and Identity Statement</h2>
-		<a href="identity.pdf">View .PDF here</a>
+		<h3>TechDojo Individuality and Identity Statement</h3>
+		<a href="identity.pdf" type="application/pdf">Read the TechDojo individuality and identity statement (PDF)</a>
 	</article>
   </div>
 </section>
